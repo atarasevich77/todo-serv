@@ -170,7 +170,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n\t\"done\": false\n}",
+							"raw": "{\n\t\"done\": true\n}",
 							"options": {
 								"raw": {}
 							}
