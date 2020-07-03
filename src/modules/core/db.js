@@ -3,7 +3,8 @@ import mongoose from 'mongoose';
 export default function mongoConnection() {
   mongoose.set('useCreateIndex', true);
   mongoose.connect(
-    `mongodb+srv://${process.env.MONGO_USER}:${process.env.MONGO_PWD}@${process.env.MONGO_HOST}/${process.env.MONGO_DB_NAME}`,
+    'mongodb+srv://admin:19vilka76@cluster0-4mcts.mongodb.net/todo?retryWrites=true&w=majority',
+    // `mongodb+srv://${process.env.MONGO_USER}:${process.env.MONGO_PWD}@${process.env.MONGO_HOST}/${process.env.MONGO_DB_NAME}`,
     { useNewUrlParser: true },
   );
 
